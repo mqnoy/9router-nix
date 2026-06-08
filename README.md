@@ -2,7 +2,7 @@
 
 Nix package for [9router](https://github.com/decolua/9router) — 9Router CLI tool.
 
-> **Current version:** `0.4.66` (from [`9router`](https://www.npmjs.com/package/9router) on npm)
+> **Current version:** `0.4.71` (from [`9router`](https://www.npmjs.com/package/9router) on npm)
 
 ---
 
