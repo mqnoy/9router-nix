@@ -1,7 +1,7 @@
 { lib, buildNpmPackage, fetchurl, nodejs }:
 
 let
-  version = "0.5.111";
+  version = "0.5.112";
 
   router9 = buildNpmPackage rec {
     pname = "9router";
@@ -9,10 +9,10 @@ let
 
     src = fetchurl {
       url = "https://registry.npmjs.org/9router/-/9router-${version}.tgz";
-      hash = "sha256-LT1F9TVXoVZaytfX56cHF1KL5aQ+g3W22CflxJl7y6M="; 
+      hash = "sha256-QAc4wZGw+qtzoi8JkLfr6g5sk1gYBxxYnKeUI5DKruE="; 
     };
 
-    npmDepsHash = "sha256-Tr4eF+PROhJIwalBHJoHLS6pvI5ooKS87lgt5vdV+tc="; 
+    npmDepsHash = "sha256-MSvCM1CnK1faioyE3M1fu+2t4oqeindqf00eouWWMno="; 
     
     inherit nodejs;
     makeCacheWritable = true;
